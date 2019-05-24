@@ -32,8 +32,6 @@ To handle the issue, the data will be smoothed via a moving avg filter.
 This will take a subset of the data along the curves, calculate the avg and update
 the given point (the mid of the min and max of the subset) such that the point
 is updated symmetrically.
-
-limitations: ************
 """
 
 # filtering the "nonsense" data within reasonable bounds
